@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
                 children: <Widget>[
                   Text(model.kboyText,),
                   ElevatedButton(
-                    child: Text('ボタン'),
+                    child: Text('Dボタン'),
                     onPressed: () {
                     model.changeKboyText();
                   },
